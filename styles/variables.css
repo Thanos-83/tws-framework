@@ -1,0 +1,28 @@
+:root {
+  --tws_page_maxwidth: 3840px;
+  --tws_page_minwidth: 320px;
+  --tws_row_bg_color: rgb(173, 54, 74);
+  --tws_row_container: 1440px;
+  --tws_page_container: 3840px;
+  --tws_color_one: #848587;
+
+  /* row paddings */
+  --tws_horizontal_row_padding: 3rem;
+  --tws_vertical_row_padding: 1.5rem;
+
+  /* column paddings */
+  --tws_col_x_padding: 1rem;
+  --tws_col_y_padding: 1rem;
+  --tws_col_padding: 1rem;
+
+  /* z-indexes */
+  --tws_zindex_999: 999;
+}
+
+.col-4 {
+  @apply col-span-12  md:col-span-4 xl:col-span-6;
+}
+
+.col-8 {
+  @apply col-span-12 md:col-span-8 xl:col-span-6;
+}

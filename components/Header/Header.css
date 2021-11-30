@@ -1,0 +1,32 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: var(--tws_zindex_999);
+}
+
+header .tws_row .tws_row_container nav {
+  /* flex: 1; */
+}
+
+header .tws_row .tws_row_container nav > ul {
+  @apply justify-between space-x-10 lg:space-x-20;
+  display: flex;
+}
+
+header .tws_row .tws_row_container nav > ul > li:hover a {
+  @apply font-semibold;
+}
+
+.tws_logo {
+  @apply text-gray-900 font-semibold;
+}
+
+.header_right {
+  @apply flex items-center space-x-6;
+}
+
+/* submenu styling */
+
+.submenu {
+  display: none;
+}

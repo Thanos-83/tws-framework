@@ -1,0 +1,37 @@
+.h1 > h1 {
+  font-size: 4rem;
+}
+.h2 > h1 {
+  font-size: 3rem;
+}
+.h3 > h1 {
+  font-size: 2.5rem;
+}
+.h4 > h1 {
+  font-size: 2rem;
+}
+.h5 > h1 {
+  font-size: 1.5rem;
+}
+.h6 > h1 {
+  font-size: 1rem;
+}
+
+.typography.h1 {
+  font-size: 4rem;
+}
+.typography.h2 {
+  font-size: 3rem;
+}
+.typography.h3 {
+  font-size: 2.5rem;
+}
+.typography.h4 {
+  font-size: 2rem;
+}
+.typography.h5 {
+  font-size: 1.5rem;
+}
+.typography.h6 {
+  font-size: 1rem;
+}

@@ -1,0 +1,4 @@
+.tws_home {
+  background: linear-gradient(to bottom, red, purple);
+  @apply p-4 md:px-[calc(var(--tws_col_x_padding)*4)];
+}
