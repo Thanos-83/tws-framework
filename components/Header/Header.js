@@ -12,12 +12,14 @@ function Header() {
   return (
     <>
       <header>
-        <Row color='white'>
+        <Row color='sky-900'>
           <RowContainer displayOption='flex'>
             <div className='tws_logo'>
-              <Link href='/'>LOGO</Link>
+              <Link href='/'>
+                <a> LOGO</a>
+              </Link>
             </div>
-            <nav>
+            <nav className='hidden md:block'>
               <ul className='menu'>
                 <li>
                   <Link href='/about'>About Us</Link>
@@ -43,13 +45,11 @@ function Header() {
                   <Link href='/products'>Products</Link>
                 </li>
                 <li>
-                  <Link href='/posts'>Posts</Link>
+                  <Link href='/blog'>Blog</Link>
                 </li>
               </ul>
             </nav>
             <div className='header_right'>
-              {/* <button>Sign In</button> */}
-              {/* <button>Logout</button> */}
               <Button text='Sign In' />
               <Button text='Signout' />
             </div>

@@ -1,9 +1,11 @@
 import React from 'react';
 import { useRouter } from 'next/router';
+import { gql } from '@apollo/client';
+import client from '../../../../lib/client';
 
 function SingleProduct({ singleProduct }) {
   const router = useRouter();
-  console.log(`Inside productCategory/productID page ${router.query}`);
+  // console.log(`Inside productCategory/productID page ${router.query}`);
 
   // when using the fallback:true property
   if (!singleProduct) {
@@ -21,6 +23,38 @@ function SingleProduct({ singleProduct }) {
 }
 
 export async function getStaticPaths() {
+  const { data } = await client.query({
+    query: gql`
+      query MyQuery {
+        productCategories {
+          nodes {
+            slug
+            products {
+              nodes {
+                id
+                slug
+              }
+            }
+          }
+        }
+      }
+    `,
+  });
+
+  // console.log(data.productCategories.nodes);
+  const paths = data.productCategories.nodes.map(
+    (category) => {
+      // console.log(category.products.nodes[0]?.id);
+      console.log(category.slug);
+    } // {
+    //   {
+    //     productCategory: category.slug;
+    //     productId: category.products.nodes[0]?.id;
+    //   }
+    // }
+  );
+
+  // console.log(paths);
   return {
     paths: [
       {
@@ -42,12 +76,12 @@ export async function getStaticPaths() {
         },
       },
     ],
-    fallback: true,
+    fallback: 'blocking',
   };
 }
 
 export async function getStaticProps(context) {
-  console.log(context);
+  // console.log(context);
   return {
     props: {
       singleProduct: {

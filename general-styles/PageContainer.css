@@ -1,4 +1,4 @@
 .tws_page_container {
-  @apply bg-gray-300 min-h-screen flex flex-col;
+  @apply bg-white min-h-screen flex flex-col;
   max-width: var(--tws_page_maxwidth);
 }

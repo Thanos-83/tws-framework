@@ -1,4 +1,6 @@
 .tws_row_container {
   @apply mx-auto px-[var(--tws_horizontal_row_padding)] py-[var(--tws_vertical_row_padding)];
   max-width: var(--tws_row_container);
+  padding-inline: var(--tws_horizontal_row_padding);
+  padding-block: var(--tws_vertical_row_padding);
 }

@@ -22,7 +22,6 @@ export default function Home() {
             <h1>This is the about us page</h1>
           </div>
           <div className='col-span-12 lg:col-span-6 bg-red-800'>
-            {/* <Img /> */}
             <Image
               src='https://source.unsplash.com/random/1800x900'
               width={1800}

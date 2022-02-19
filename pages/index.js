@@ -8,7 +8,7 @@ import Typography from '../general-styles/Typography';
 
 export default function Home() {
   // const width = useDimensions('resize');
-  console.log('Inside home');
+  // console.log('Inside home');
   return (
     <React.Fragment>
       <Head>
@@ -21,25 +21,7 @@ export default function Home() {
         <RowContainer displayOption='grid-fit'>
           {/* <section> */}
           <div className='bg-red-500'>
-            <Typography variant='h3'>Main content area left column</Typography>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
+            <Typography variant='h3'>Main content area</Typography>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
               porro dolores accusantium odit recusandae obcaecati sapiente
@@ -47,313 +29,14 @@ export default function Home() {
               nemo delectus quas earum consectetur!
             </p>
           </div>
-          <div className='bg-indigo-200'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          <div className='bg-indigo-800'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          <div className='bg-green-400'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          <div className='bg-indigo-400'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          <div className='bg-indigo-400'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          <div className='bg-indigo-400'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          <div className='bg-indigo-400'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          <div className='bg-indigo-400'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          <div className='bg-indigo-400'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          <div className='bg-indigo-400'>
-            <h1>Main content area right column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
-          {/* </section> */}
         </RowContainer>
       </Row>
 
       <Row color='#facf57'>
         <RowContainer displayOption='grid'>
-          {/* <section> */}
           <div className='col-span-1 bg-indigo-500 h-full'></div>
-          <div className='w-[100%] col-span-12 md:col-span-7 text-white'>
-            <h1>Main content area left column</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              porro dolores accusantium odit recusandae obcaecati sapiente
-              aliquid. Eligendi, est harum eos laudantium quia optio. Asperiores
-              nemo delectus quas earum consectetur!
-            </p>
-          </div>
 
-          <div className='w-[100%] col-span-12 md:col-span-3 '>
+          <div className='w-[100%] col-span-10'>
             <h1>Main content area right column</h1>
 
             <p>
@@ -362,8 +45,6 @@ export default function Home() {
             </p>
           </div>
           <div className='col-span-1 bg-indigo-500 h-full'></div>
-
-          {/* </section> */}
         </RowContainer>
       </Row>
     </React.Fragment>

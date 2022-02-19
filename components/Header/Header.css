@@ -2,6 +2,7 @@ header {
   position: sticky;
   top: 0;
   z-index: var(--tws_zindex_999);
+  background: lightslategray;
 }
 
 header .tws_row .tws_row_container nav {

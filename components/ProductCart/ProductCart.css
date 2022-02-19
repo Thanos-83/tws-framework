@@ -1,0 +1,19 @@
+.productCart {
+  background: var(--tws_color2);
+}
+
+.productCart_image {
+  position: relative;
+}
+
+.onSale {
+  display: none;
+}
+.onSale.active {
+  display: block;
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  padding: 0.25em 0.5em;
+  @apply rounded-lg bg-red-400 text-sm text-white font-bold;
+}

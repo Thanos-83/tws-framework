@@ -1,7 +1,8 @@
-/* TYPOGRAPHY */
 h1 {
   font-size: clamp(2rem, 1.5385rem + 2.0513vw, 4rem);
-  /* font-size: 2rem; */
+  /* @apply text-7xl; */
+  /* font-size: var(--tws_base_fs); */
+  @apply pb-4;
 }
 h2 {
   font-size: 4rem;
@@ -20,5 +21,6 @@ h6 {
 }
 p {
   /* font-size: 1rem; */
-  @apply mb-6 text-base;
+  @apply mb-6 text-xl;
 }
+/* } */

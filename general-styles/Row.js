@@ -1,14 +1,11 @@
 function Row({ color, children }) {
-  const styles = {
-    backgroundColor: `${color}`,
+  const bgcolor = {
+    // bg: `${color}`,
+    // bg: `bg-[${color}]`,
   };
-
+  // console.log(bgcolor);
   // bg-[${color}]
-  return (
-    <div className={`tws_row `} style={styles}>
-      {children}
-    </div>
-  );
+  return <div className={`tws_row bg-${color}`}>{children}</div>;
 }
 
 export default Row;

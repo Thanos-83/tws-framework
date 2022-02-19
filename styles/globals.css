@@ -1,80 +1,29 @@
-/* @import 'tailwindcss/base';
+@import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'; */
-@tailwind base;
+@import 'tailwindcss/utilities';
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 /* Import General Styles*/
 @import './variables.css';
 @import './generalTypography.css';
-@import url('../general-styles/PageContainer.css');
+@import '../general-styles/PageContainer.css';
 @import '../general-styles/RowContainer.css';
 @import '../general-styles/Row.css';
-@import '../general-styles/Typography.css';
 
 /* Import Page Styles */
 @import '../pages/index.css';
-@import url('../pages/services/services.css');
-@import url('../pages/products/products.css');
-@import url('../pages//about/about.css');
+@import '../pages/services/services.css';
+@import '../pages/products/products.css';
+@import '../pages//about/about.css';
 
 /* Import Component Styles */
 @import '../components/Header/Header.css';
 @import '../components/Footer/Footer.css';
 @import '../components/Button/Button.css';
+@import '../components/ProductCart/ProductCart.css';
 
-/* TYPOGRAPHY */
-h1 {
-  font-size: clamp(2rem, 1.5385rem + 2.0513vw, 4rem);
-  /* font-size: 2rem; */
+main {
+  flex-grow: 1;
 }
-h2 {
-  font-size: 4rem;
-}
-h3 {
-  font-size: 3rem;
-}
-h4 {
-  font-size: 2rem;
-}
-h5 {
-  font-size: 1.5rem;
-}
-h6 {
-  font-size: 1rem;
-}
-p {
-  /* font-size: 1rem; */
-  @apply mb-6 text-base;
-}
-
-.tws_post_body li {
-  /* background: red; */
-  color: blue;
-  font-weight: 600;
-}
-
-.tws_post_body blockquote {
-  position: relative;
-  padding: 0 2rem;
-  /* margin-left: 2rem; */
-  @apply my-4;
-}
-
-.tws_post_body blockquote::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 8px;
-  height: 100%;
-  background: rgb(128, 32, 32);
-  /* margin-right: 1rem; */
-}
-
-/* .tws_post_body > * {
-  max-width: var(--tws_row_container);
-  margin: 0 auto;
-  @apply px-[var(--tws_horizontal_row_padding)];
-} */
