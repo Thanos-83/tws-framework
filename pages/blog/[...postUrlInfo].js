@@ -22,7 +22,11 @@ export default function Posts(props) {
         <RowContainer displayOption='grid-center'>
           <div className='col-span-6'>
             <h1>This is the Single Blog page</h1>
-            <img src={`${props.data.featuredImage.node.sourceUrl}`} alt='' />
+            {props.data.featuredImage.node.sourceUrl ? (
+              <img src={`${props.data.featuredImage.node.sourceUrl}`} alt='' />
+            ) : (
+              <h2>No image</h2>
+            )}
             <div
               className='prose'
               dangerouslySetInnerHTML={{ __html: props.data.content }}
@@ -36,7 +40,7 @@ export default function Posts(props) {
 
 export async function getServerSideProps(context) {
   // console.log(context.params.postUrlInfo[0]);
-  const postId = context.params.postUrlInfo[0];
+  // const postId = context.params.postUrlInfo[0];
   const { data } = await client.query({
     query: gql`
       query MyQuery {
