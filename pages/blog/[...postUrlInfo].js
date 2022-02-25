@@ -34,7 +34,7 @@ export default function Posts(props) {
   );
 }
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   // console.log(context.params.postUrlInfo[0]);
   const postId = context.params.postUrlInfo[0];
   const { data } = await client.query({
@@ -67,21 +67,5 @@ export async function getStaticProps(context) {
     props: {
       data: data.post,
     },
-  };
-}
-
-export async function getStaticPaths(context) {
-  // console.log(context.params);
-
-  return {
-    paths: [
-      {
-        params: {
-          postUrlInfo: ['cG9zdDox', 'post-1'],
-          // slug: 'post-1',
-        },
-      },
-    ],
-    fallback: 'blocking',
   };
 }
